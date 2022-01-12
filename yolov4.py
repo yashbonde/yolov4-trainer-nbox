@@ -226,14 +226,3 @@ class Yolo(Operator):
     )
 
 # ---------------
-
-# Finally you define your job and run it on the cloud
-yolo = Yolo()
-yolo.deploy(
-  model_name = "dry_run_model",
-  slack_secret = "dry_run_slack_secret",
-  job_id = None,
-  job_name = "yolov4-trainer-nbox",
-)
-
-# Go to nimblebox.ai/jobs to see your job in the queue
