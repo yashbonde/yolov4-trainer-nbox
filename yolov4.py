@@ -224,5 +224,3 @@ class Yolo(Operator):
     Notify(slack_secret = slack_secret)(
       f"Model '{model_name}' deployed at {url}, key: {key}"
     )
-
-# ---------------
